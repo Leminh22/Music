@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SoundWave - nền tảng âm nhạc trực tuyến cho giới trẻ.">
+  <title>Trình phát | SoundWave</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/player.css">
+</head>
+<body>
+  <input type="checkbox" id="menu-toggle" class="menu-check" hidden>
+  <header class="navbar">
+    <div class="nav-inner">
+      <a class="logo" href="index.html" aria-label="SoundWave - Trang chủ">
+        <span class="logo-mark" aria-hidden="true"><i style="height:9px"></i><i style="height:14px"></i><i style="height:20px"></i><i style="height:12px"></i><i style="height:17px"></i></span>
+        <span>Sound<span>Wave</span></span>
+      </a>
+      <nav class="nav-links" id="nav" aria-label="Điều hướng chính"><a href="index.html">Trang chủ</a><a href="search.html">Khám phá</a><a href="artist-songs.html">Nghệ sĩ</a><a href="composer-songs.html">Tác giả</a><a href="album-songs.html">Album</a><a href="detail.html">Tin nhạc</a><a href="about.html">Về chúng tôi</a><a href="contact.html">Liên hệ</a></nav>
+      <div class="nav-actions">
+        <a class="primary small" href="policy-terms.html#premium">Premium</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page shell">
+    <section class="page-intro">
+      <span class="eyebrow">Trình phát SoundWave</span>
+      <h1>Nghe nhạc <em>ngay.</em></h1>
+      <p>Bấm nút phát ở từng bài. Muốn xem lời, chọn "Lời bài hát".</p>
+    </section>
+    <ol class="pl-list">
+      <li class="pl-row" id="the-fate-of-ophelia">
+        <span class="pl-index">01</span>
+        <img class="pl-cover" src="images/cover-1.jpg" alt="Bìa The Fate of Ophelia" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#the-fate-of-ophelia"><strong>The Fate of Ophelia</strong></a>
+          <small>Taylor Swift</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-1.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#the-fate-of-ophelia">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="nhu-mot-nguoi-rung">
+        <span class="pl-index">02</span>
+        <img class="pl-cover" src="images/cover-2.jpg" alt="Bìa Như Một Người Rưng" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#nhu-mot-nguoi-rung"><strong>Như Một Người Rưng</strong></a>
+          <small>OSAD, Hà An Huy</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-2.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#nhu-mot-nguoi-rung">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="luu-nien">
+        <span class="pl-index">03</span>
+        <img class="pl-cover" src="images/cover-3.jpg" alt="Bìa Lưu Niên" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#luu-nien"><strong>Lưu Niên</strong></a>
+          <small>Jack - J97</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-3.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#luu-nien">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="tim-em">
+        <span class="pl-index">04</span>
+        <img class="pl-cover" src="images/cover-4.jpg" alt="Bìa Tìm Em" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#tim-em"><strong>Tìm Em</strong></a>
+          <small>Hngle, Bảo Anh</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-4.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#tim-em">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="khong-buong">
+        <span class="pl-index">05</span>
+        <img class="pl-cover" src="images/cover-5.jpg" alt="Bìa Không Buông" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#khong-buong"><strong>Không Buông</strong></a>
+          <small>Hngle, Ari</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-5.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#khong-buong">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="theu-hoa-det-gam">
+        <span class="pl-index">06</span>
+        <img class="pl-cover" src="images/cover-6.jpg" alt="Bìa THÊU HOA DỆT GẤM" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#theu-hoa-det-gam"><strong>THÊU HOA DỆT GẤM</strong></a>
+          <small>TINH HÀ "SAY HI", buitruonglinh, HURRYKNG và nhiều hơn</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-6.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#theu-hoa-det-gam">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="love-story">
+        <span class="pl-index">07</span>
+        <img class="pl-cover" src="images/cover-7.jpg" alt="Bìa Love Story" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#love-story"><strong>Love Story</strong></a>
+          <small>Taylor Swift</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-7.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#love-story">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="bong-hoa-dep-nhat">
+        <span class="pl-index">08</span>
+        <img class="pl-cover" src="images/cover-8.jpg" alt="Bìa Bông Hoa Đẹp Nhất" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#bong-hoa-dep-nhat"><strong>Bông Hoa Đẹp Nhất</strong></a>
+          <small>Quân A.P</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-8.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#bong-hoa-dep-nhat">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="anh-khong-theo-duoi-em-nua">
+        <span class="pl-index">09</span>
+        <img class="pl-cover" src="images/cover-9.jpg" alt="Bìa ANH KHÔNG THEO ĐUỔI EM NỮA" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#anh-khong-theo-duoi-em-nua"><strong>ANH KHÔNG THEO ĐUỔI EM NỮA</strong></a>
+          <small>Thanh Duy</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-9.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#anh-khong-theo-duoi-em-nua">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="Cruel-Summer">
+        <span class="pl-index">10</span>
+        <img class="pl-cover" src="images/cover-10.jpg" alt="Bìa Cruel Summer" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#Cruel-Summer"><strong>Cruel Summer</strong></a>
+          <small>Taylor Swift</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-10.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#Cruel-Summer">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="Blank-Space">
+        <span class="pl-index">11</span>
+        <img class="pl-cover" src="images/cover-11.jpg" alt="Bìa Blank Space" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#Blank-Space"><strong>Blank Space</strong></a>
+          <small>Taylor Swift</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-11.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#Blank-Space">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="You-Belong-With-Me">
+        <span class="pl-index">12</span>
+        <img class="pl-cover" src="images/cover-12.jpg" alt="Bìa You Belong With Me" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#You-Belong-With-Me"><strong>You Belong With Me</strong></a>
+          <small>Taylor Swift</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-12.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#You-Belong-With-Me">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="Patient-Zero">
+        <span class="pl-index">13</span>
+        <img class="pl-cover" src="images/cover-13.jpg" alt="Bìa Patient Zero" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#Patient-Zero"><strong>Patient Zero</strong></a>
+          <small>Taylor Swift</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-13.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#Patient-Zero">Lời bài hát</a>
+      </li>
+    </ol>
+    <li class="pl-row" id="Style">
+        <span class="pl-index">14</span>
+        <img class="pl-cover" src="images/cover-14.jpg" alt="Bìa Style" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#Style"><strong>Style</strong></a>
+          <small>Taylor Swift</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-14.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#Style">Lời bài hát</a>
+      </li>
+      <li class="pl-row" id="Cardigan">
+        <span class="pl-index">15</span>
+        <img class="pl-cover" src="images/cover-15.jpg" alt="Bìa Cardigan" loading="lazy">
+        <div class="pl-info">
+          <a href="song-detail.html#Cardigan"><strong>Cardigan</strong></a>
+          <small>Taylor Swift</small>
+        </div>
+        <audio class="pl-audio" controls preload="none" src="music/song-15.mp3"></audio>
+        <a class="pl-lyrics" href="song-detail.html#Cardigan">Lời bài hát</a>
+      </li>
+  </main>
+  <footer>
+    <div class="footer-main shell">
+      <div class="footer-brand">
+        <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"><i style="height:9px"></i><i style="height:14px"></i><i style="height:20px"></i><i style="height:12px"></i><i style="height:17px"></i></span><span>Sound<span>Wave</span></span></a>
+        <p>Âm nhạc cho mọi khoảnh khắc.<br>Kết nối bằng những thanh âm.</p>
+      </div>
+      <nav aria-label="Khám phá"><h4>Khám phá</h4><a href="search.html">Top Charts</a><a href="artist-songs.html">Nghệ sĩ</a><a href="composer-songs.html">Tác giả</a><a href="album-songs.html">Album mới</a></nav>
+      <nav aria-label="SoundWave"><h4>SoundWave</h4><a href="about.html">Về chúng tôi</a><a href="detail.html">Tin nhạc</a><a href="contact.html">Liên hệ</a><a href="contact.html">Dành cho nghệ sĩ</a></nav>
+      <nav aria-label="Pháp lý"><h4>Pháp lý</h4><a href="policy-terms.html#terms">Điều khoản</a><a href="policy-terms.html#privacy">Quyền riêng tư</a><a href="policy-terms.html#dmca">Bản quyền</a><a href="policy-terms.html#premium">Premium</a></nav>
+    </div>
+    <div class="footer-bottom shell"><span>© 2026 SoundWave. Made for music lovers.</span><span>Tiếng Việt · VN</span></div>
+  </footer>
+</body>
+</html>

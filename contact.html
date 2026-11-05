@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="SoundWave - nền tảng âm nhạc trực tuyến cho giới trẻ.">
+        <title>Liên hệ | SoundWave</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="nav-inner">
+                <a class="logo" href="index.html"
+                    aria-label="SoundWave - Trang chủ">
+                    <span class="logo-mark" aria-hidden="true"><i
+                            style="height:9px"></i><i style="height:14px"></i><i
+                            style="height:20px"></i><i
+                            style="height:12px"></i><i
+                            style="height:17px"></i></span>
+                    <span>Sound<span>Wave</span></span>
+                </a>
+                <nav class="nav-links" id="nav" aria-label="Điều hướng chính"><a
+                        href="index.html">Trang chủ</a><a
+                        href="search.html">Khám phá</a><a
+                        href="artist-songs.html">Nghệ sĩ</a><a
+                        href="composer-songs.html">Tác giả</a><a
+                        href="album-songs.html">Album</a><a
+                        href="detail.html">Tin nhạc</a><a href="about.html">Về
+                        chúng tôi</a><a href="contact.html" class="active"
+                        aria-current="page">Liên hệ</a></nav>
+                <div class="nav-actions">
+                    <a class="primary small"
+                        href="policy-terms.html#premium">Premium</a>
+                </div>
+            </div>
+        </header>
+
+        <main class="page shell">
+            <div class="contact-layout">
+                <section class="contact-copy"><span class="eyebrow">Kết nối với
+                        SoundWave</span><h1>Chúng tôi luôn<br><em>lắng
+                            nghe.</em></h1>
+                    <p>Bạn là nghệ sĩ muốn hợp tác, hay đơn giản có một ý tưởng
+                        tuyệt vời? Hãy gửi cho chúng tôi một lời nhắn.</p>
+                    <ul
+                        class="contact-list"><li><i>✉</i><strong>Email</strong><a
+                                href="mailto:hello@soundwave.vn">hello@soundwave.vn</a></li><li><i>☎</i><strong>Hotline</strong><a
+                                href="tel:19001234">1900
+                                1234</a></li><li><i>⌖</i><strong>Studio</strong><b>28
+                                Nguyễn Văn Bình, Q.1, TP.HCM</b></li></ul>
+                    <!-- Thay khối này bằng thẻ <iframe> Google Maps: Maps > Chia sẻ > Nhúng bản đồ -->
+                    <div class="map-card"><div class="map-lines"></div><b>📍
+                            SoundWave Studio</b><small>Ho Chi Minh
+                            City</small></div>
+                </section>
+                <form class="contact-form" action="#"
+                    onsubmit="event.preventDefault();this.querySelector('button').textContent='✓ Đã gửi thành công'">
+                    <h2>Gửi lời nhắn</h2>
+                    <label for="name">Họ và tên<input id="name" name="name"
+                            required placeholder="Tên của bạn"></label>
+                    <label for="email">Email<input id="email" name="email"
+                            type="email" required
+                            placeholder="you@example.com"></label>
+                    <label for="type">Loại yêu cầu<select id="type"
+                            name="type"><option>Hợp tác nghệ
+                                sĩ</option><option>Góp ý sản
+                                phẩm</option><option>Truyền thông &amp; báo
+                                chí</option><option>Khác</option></select></label>
+                    <label for="msg">Nội dung<textarea id="msg" name="msg"
+                            rows="5" required
+                            placeholder="Hãy kể cho chúng tôi nghe..."></textarea></label>
+                    <button class="primary" type="submit">Gửi lời nhắn
+                        →</button>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-main shell">
+                <div class="footer-brand">
+                    <a class="logo" href="index.html"><span class="logo-mark"
+                            aria-hidden="true"><i style="height:9px"></i><i
+                                style="height:14px"></i><i
+                                style="height:20px"></i><i
+                                style="height:12px"></i><i
+                                style="height:17px"></i></span><span>Sound<span>Wave</span></span></a>
+                    <p>Âm nhạc cho mọi khoảnh khắc.<br>Kết nối bằng những thanh
+                        âm.</p>
+                </div>
+                <nav aria-label="Khám phá"><h4>Khám phá</h4><a
+                        href="search.html">Top Charts</a><a
+                        href="artist-songs.html">Nghệ sĩ</a><a
+                        href="composer-songs.html">Tác giả</a><a
+                        href="album-songs.html">Album mới</a></nav>
+                <nav aria-label="SoundWave"><h4>SoundWave</h4><a
+                        href="about.html">Về chúng tôi</a><a
+                        href="detail.html">Tin nhạc</a><a
+                        href="contact.html">Liên hệ</a><a
+                        href="contact.html">Dành cho nghệ sĩ</a></nav>
+                <nav aria-label="Pháp lý"><h4>Pháp lý</h4><a
+                        href="policy-terms.html#terms">Điều khoản</a><a
+                        href="policy-terms.html#privacy">Quyền riêng tư</a><a
+                        href="policy-terms.html#dmca">Bản quyền</a><a
+                        href="policy-terms.html#premium">Premium</a></nav>
+            </div>
+            <div class="footer-bottom shell"><span>© 2026 SoundWave. Made for
+                    music lovers.</span><span>Tiếng Việt · VN</span></div>
+        </footer>
+
+        <div class="player" role="region" aria-label="Trình phát nhạc">
+            <div class="player-track">
+                <img src="images/cover-1.jpg" alt="Bìa The Fate of Ophelia">
+                <div>
+                    <strong>The Fate of Ophelia</strong>
+                    <a href="song-detail.html#the-fate-of-ophelia">Taylor
+                        Swift</a>
+                </div>
+            </div>
+            <audio class="player-audio" controls preload="none"
+                src="music/song-1.mp3">
+                Trình duyệt không hỗ trợ phát nhạc.
+            </audio>
+            <a class="player-more" href="player.html#the-fate-of-ophelia">Mở
+                trình phát</a>
+        </div>
+
+        <script>
+    document.getElementById('menu').addEventListener('click', function () { document.getElementById('nav').classList.toggle('open'); });
+    document.querySelectorAll('.play-button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        var on = b.dataset.on !== '1';
+        document.querySelectorAll('.play-button').forEach(function (x) { x.dataset.on = on ? '1' : ''; x.textContent = on ? '⏸' : '▶'; });
+      });
+    });
+    document.querySelectorAll('[data-follow]').forEach(function (b) {
+      b.addEventListener('click', function () { b.textContent = b.textContent.indexOf('Đang') > -1 ? 'Theo dõi' : '✓ Đang theo dõi'; });
+    });
+  </script>
+    </body>
+</html>
